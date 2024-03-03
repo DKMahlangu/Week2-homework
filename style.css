@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background: var(--gradient);
+  margin-top: 90px;
+}
+.homepage {
+  box-shadow: var(--box-shadow);
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 90%;
+  padding: 30px 15px;
+  background: rgb(255, 253, 253);
+}
+h1,
+h3 {
+  font-size: 30px;
+  color: var(--secondary-color);
+}
+h2,
+strong {
+  color: var(--primary-color);
+  font-weight: 40px;
+  line-height: 5px;
+}
+h2 {
+  font-size: 60px;
+}
+strong {
+  font-size: 50px;
+}
+
+span {
+  font-size: 15px;
+  color: var(--secondary-color);
+}
+.navigation-links a {
+  text-decoration: none;
+  margin: 20px;
+  padding: 20px 15px;
+  border-radius: 5px;
+  color: var(--primary-color);
+  line-height: 150px;
+}
+.about-link,
+.contact-link {
+  background: var(--third-color);
+  box-shadow: var(--box-shadow);
+}
+
+.homepage-link {
+  color: var(--secondary-color);
+  display: block;
+}
+
+.paragraph {
+  background: var(--third-color);
+  border-radius: 15px;
+  margin: 20px 75px;
+  padding: 55px 35px;
+}
+.email-link {
+  color: var(--primary-color);
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+:root {
+  --primary-color: #131314;
+  --secondary-color: #848485;
+  --third-color: #f5f2fe;
+  --gradient: linear-gradient(
+    89deg,
+    rgb(253, 220, 155) 26.2%,
+    rgb(255, 215, 165) 48.5%
+  );
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}

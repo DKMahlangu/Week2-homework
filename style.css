@@ -17,11 +17,12 @@ h3 {
   font-size: 30px;
   color: var(--secondary-color);
 }
+
 h2,
 strong {
   color: var(--primary-color);
   font-weight: 40px;
-  line-height: 5px;
+  line-height: 25px;
 }
 h2 {
   font-size: 60px;

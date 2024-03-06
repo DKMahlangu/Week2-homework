@@ -1,34 +1,37 @@
+:root {
+  --primary-color: #131314;
+  --secondary-color: #424141;
+  --third-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background: #d6b7b5;
   text-align: center;
-  background: var(--gradient);
-  margin-top: 90px;
 }
 .navigation-bar {
-  margin: -90px 0 0 0;
-  border-bottom: #848485 solid;
+  border-bottom: var(--secondary-color) solid;
   opacity: 90%;
 }
 .navbar-brand {
   color: var(--third-color);
-  background-color: #c1c1c2;
+  background-color: #d6b7b5;
   padding: 7px;
   border-radius: 9px;
 }
 .navbar-toggler {
-  border: #848485 solid;
+  border: var(--secondary-color) solid;
 }
 .homepage {
   box-shadow: var(--box-shadow);
-  border-radius: 10px;
-  margin: 20px auto;
-  max-width: 90%;
+  margin: 50px 15px;
   padding: 30px 15px;
-  background: rgb(255, 253, 253);
+  background: var(--third-color);
 }
 h1,
-h3 {
-  font-size: 30px;
+h3,
+h4 {
+  font-size: 35px;
   color: var(--secondary-color);
 }
 
@@ -36,17 +39,23 @@ h2,
 strong {
   color: var(--primary-color);
   font-weight: 40px;
-  line-height: 25px;
+  line-height: 35px;
+}
+h1 {
+  margin-top: 45px;
 }
 h2 {
   font-size: 60px;
+}
+h4 {
+  background-color: #d6b7b5;
 }
 strong {
   font-size: 50px;
 }
 
 span {
-  font-size: 15px;
+  font-size: 18px;
   color: var(--secondary-color);
 }
 .navigation-links a {
@@ -54,12 +63,12 @@ span {
   margin: 20px;
   padding: 20px 15px;
   border-radius: 5px;
-  color: var(--primary-color);
+  color: var(--third-color);
   line-height: 150px;
 }
 .about-link,
 .contact-link {
-  background: var(--third-color);
+  background: var(--secondary-color);
   box-shadow: var(--box-shadow);
 }
 
@@ -84,17 +93,13 @@ span {
   text-decoration: underline;
 }
 
-:root {
-  --primary-color: #131314;
-  --secondary-color: #848485;
-  --third-color: #f5f2fe;
-  --gradient: linear-gradient(
-    89deg,
-    rgb(253, 220, 155) 26.2%,
-    rgb(255, 215, 165) 48.5%
-  );
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+.mb-3 {
+  font-size: 25px;
 }
-.row {
-  display: flex;
+.launch-link a {
+  padding:15px;
+  border-radius: 5px;
+  background: var(--secondary-color);
+  color: var(--third-color);
+  box-shadow: var(--box-shadow);
 }

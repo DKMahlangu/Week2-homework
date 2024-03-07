@@ -25,13 +25,17 @@ body {
 .homepage {
   box-shadow: var(--box-shadow);
   margin: 50px 15px;
-  padding: 30px 15px;
+  padding: 30px 5px;
   background: var(--third-color);
 }
-h1,
-h3,
-h4 {
+h1 {
   font-size: 35px;
+  color: var(--secondary-color);
+}
+
+h3 {
+  font-size: 55px;
+  margin-bottom: 5px;
   color: var(--secondary-color);
 }
 
@@ -49,6 +53,10 @@ h2 {
 }
 h4 {
   background-color: #d6b7b5;
+  margin-top: 160px;
+  font-size: 40px;
+  color: var(--secondary-color);
+  padding: 15px;
 }
 strong {
   font-size: 50px;
@@ -78,8 +86,8 @@ span {
 }
 
 .paragraph {
+  box-shadow: var(--box-shadow);
   background: var(--third-color);
-  border-radius: 15px;
   margin: 20px 75px;
   padding: 55px 35px;
 }
@@ -102,4 +110,14 @@ span {
   background: var(--secondary-color);
   color: var(--third-color);
   box-shadow: var(--box-shadow);
+}
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+.project-paragraph {
+  background: var(--third-color);
+  padding: 20px 15px;
+  font-size: 18px;
+  margin-inline: 20px;
 }
